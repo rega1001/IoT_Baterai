@@ -1,0 +1,80 @@
+Data Inverter JSD Type Modbus RTU
+
+========================================
+Data				        Address
+========================================
+Op_Mode				        201
+
+V_Grid (1/10)			    202
+Hz_Grid (1/100)			    203
+W_Grid				        204
+
+V_Inverter (1/10)		    205
+I_Inverter (1/10)		    206
+Hz_Inverter (1/100)		    207
+W_Inverter			        208
+W_Ch_Inv			        209
+I_Ch_Inv (1/10)			    233
+
+V_Out (1/10)			    210
+I_Out (1/10)			    211
+Hz_Out (1/100)			    212
+W_Out 				        213
+VA_Out				        214
+
+V_Batt (1/10)			    215
+I_Batt (1/10)			    216
+W_Batt 				        217
+SOC_Batt			        229
+I_PC_ND_Batt (1/10)		    232
+
+V_PV (1/10)			        219
+I_PV (1/10)			        220
+W_PV				        223
+W_Ch_PV				        224
+I_Ch_PV				        234
+
+Percent_Load			    225
+T_DCDC				        226
+T_Inverter			        227
+Rated Power			        643
+
+========================================
+Settings			        Address
+========================================
+Out_Mode			        300
+Out_Priority			    301
+V_In_Range			        302
+Buzz_Mode			        303
+
+LCD_Light			        305
+LCD_RTH				        306
+Energy_Save			        307
+
+Overload_Reset			    308
+Over_T_Reset			    309
+Overload_Bypass			    310
+
+Batt_Eq				        313
+V_Ch_Eq (1/10)			    334
+Time_Eq (min)			    335
+Timeout_Eq (min)		    336
+Ch_Eq_Interval (day)	    337
+
+Set_V_Out (1/10)		    320
+Set_Hz_Out (1/100)		    321
+
+Max_V_Ch (1/10)			    324
+Float_V_Ch (1/10)		    325
+Max_I_Ch (1/10)			    332
+Max_I_Ch_Grid (1/10)		333
+Ch_Batt_Priority		    331
+
+OV_Batt_Pro (1/10)		    323
+V_Batt_Start_Dch (1/10)		326
+V_Batt_Low_Grid (1/10)		327
+V_Batt_Low_OfG	(1/10)		329
+
+Turn_On_Mode			    406
+Remote_Sw			        420
+Ext_Fault_Mode (WO)		    426
